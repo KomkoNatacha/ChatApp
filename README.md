@@ -7,3 +7,13 @@ Avec des fonctionnalités telles que la création de comptes utilisateur, la con
 Développée avec les dernières technologies de développement mobile, ChatApp utilise Retrofit pour l'envoi de messages et Glide pour le chargement d'images, garantissant ainsi des performances optimales et une intégration transparente avec les appareils Android.
 
 Que ce soit pour rester en contact avec des amis, des collègues ou des proches, ChatApp est l'outil idéal pour rester connecté où que vous soyez.
+
+Ce projet a été conçu et réalisé en équipe de deux personnes dans le cadre d'un projet de session.
+
+
+
+
+
+
+
+
