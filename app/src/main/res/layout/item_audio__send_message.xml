@@ -1,0 +1,50 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="message"
+            type="ca.dmi.uqtr.applicationchat.bdlocal.model.Message" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:id="@+id/cons"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_send_message"
+            android:layout_marginStart="100dp"
+            android:padding="2dp">
+
+            <!-- Audio Icon -->
+            <ImageView
+                android:id="@+id/audioIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/ic_microblanc"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:onClick="startRecording"
+                android:contentDescription="@string/todo" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Timestamp -->
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            app:formattedTime="@{message.time}"/>
+    </LinearLayout>
+</layout>

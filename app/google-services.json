@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "813139135734",
+    "project_id": "chatapp-b4249",
+    "storage_bucket": "chatapp-b4249.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813139135734:android:cef12f860d73cee8f8b0d7",
+        "android_client_info": {
+          "package_name": "ca.dmi.uqtr.applicationchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG6PyoJF2gNwnTUzaYWovBFbgDxWXGJdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
